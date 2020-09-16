@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+}
+
+
+
+.header, .footer{
+    background:linear-gradient(to right,lightgray,gray);
+    height:15vh;
+
+}
+
+.headerh1, .headerp, .thumbContainer{
+    position:absolute;
+}
+
+.headerh1{
+    left:20%;
+    top:10%;
+    size:30px;
+    letter-spacing:4px;
+    font-family: 'Ranchers', cursive;
+    text-shadow:2px 1px rgb(61, 196, 61);
+
+
+}
+
+.headerp{
+    left:35%;
+     top:55%; 
+    font-family: 'Ranchers', cursive;
+    text-shadow:2px 1px rgb(61, 196, 61);
+
+
+}
+
+
+.pawicon{
+    left:-15px;
+}
+
+.boneicon{
+    left:15px;
+}
+
+.thumbContainer{
+    height:100%;
+    width:25%;
+    /* border:2px solid blue; */
+    left:75%;
+}
+
+.thumbBox{
+    height:50%;
+    width:100%;
+}
+
+.thumbimage{
+    height:100%;
+    width:100%;
+}
+
+
+
+
+.mainarea{
+    height:70vh;
+    width:100vw;
+}
+
+.canvas, .sidebar, .sliderDiv{
+    position:absolute;
+}
+
+.canvas{
+    width:80%;
+    height:80%;
+    /* border:1px solid blue; */
+}
+
+
+.imgContainer{
+    height:100%;
+    width:100%;
+}
+
+.containerImg{
+    height:100%;
+    width:100%;
+}
+
+.sidebar{
+    left:80%;
+    width:20%;
+    height:100%;
+    /* border:1px solid purple; */
+    display:flex;
+    align-items:stretch;
+    flex-direction:column;
+}
+
+.rangeDiv{
+    width:75%;
+    height:50%;
+    top:10%;
+
+    /* border:2px solid orange; */
+}
+
+.addImageDiv, .rangeDivContainer{
+    width:100%;
+    height:100%;
+    position:absolute;
+     top:0;
+    left:0;
+}
+
+.hide-addImageDiv{
+    z-index:-2;
+}
+
+.addimageinputdiv{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    background:linear-gradient(to right,lightgray,gray)
+}
+
+.rangeDivContainer{
+    z-index:0;
+}
+
+.rangeinput{
+    width:85%;
+    top:4px;
+}
+
+.propertyBtn{
+    height:65px;
+}
+
+.propetyBtn:hover, :focus{
+    background:rgb(61, 196, 61);
+}
+
+.sliderdiv{
+    top:80%;
+    height:20%;
+    width:80%;
+    background:rgb(61, 196, 61);
+    border:2px solid black;
+
+    /* border:1px solid red; */
+}
+
+
+.rangeDiv{
+    display:flex;
+}
+
+
+.togglePanelBtn{
+    left:75%;
+    top:70%;
+}
+
+.footer{
+    height:5vh;
+    text-align:center;
+}
+
+.footerp{
+    font-family: 'Ranchers', cursive;
+
+}

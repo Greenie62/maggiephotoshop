@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Maggie Photo-Shop</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class='headerh1'><i class="fas fa-paw pawicon"></i>Maggies</h1>
+        <h3 class='headerp'>Photo Shop<i class="boneicon fas fa-bone"></i></h3>
+        <div class="thumbContainer"></div>
+    </div>
+    <div class="mainarea">
+        <div class="canvas">
+            <div class="imgContainer">
+                <img src="./assets/image-4.jpg" alt="invalid_image_url" class="containerImg">
+            </div>
+        </div>
+        <div class="sidebar"></div>
+        <div class="sliderdiv">
+            
+            <div class="rangeDivContainer">
+            <h5>Change the <span class='propertyDOM'>??</span></h5>
+
+            <div class="rangeDiv">
+                <small class="caption">Min</small>
+                <input type="range" min="0" max="100" class="rangeinput">
+                <small class="caption">Max</small>
+
+            </div>
+        </div>
+
+            <div class="addImageDiv hide-addImageDiv">
+                <div class="addimageinputdiv">
+                <label for="imageurl">URL:</label>
+                <input type="text" name="imageurl" id="imageurl" placeholder="image_url...">
+                
+                <button class='addUrlBtn'>Enter</button>
+                </div>
+            </div>
+            <button class="togglePanelBtn">Add image URL</button>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="footerp">Footer&copy;</div>
+    </div>
+
+
+    <script src="buttons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
